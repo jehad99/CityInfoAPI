@@ -5,7 +5,8 @@ namespace CityInfoAPI
     public class CitiesData
     {
         public List<City> Cities { get; set; }
-        public static CitiesData Current { get; } = new CitiesData();
+        //static instance is singleton
+        //public static CitiesData Current { get; } = new CitiesData();
 
         public CitiesData()
         {
