@@ -1429,3 +1429,23 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-03-13 14:59:40.692 +02:00 [DBG] Connection id "0HMP3O9V4717M" stopped.
 2023-03-13 14:59:40.694 +02:00 [DBG] Connection id "0HMP3O9V4717M" sending FIN because: "The Socket transport's send loop completed gracefully."
 2023-03-13 15:34:42.566 +02:00 [DBG] Config reload token fired. Checking for changes...
+2023-03-13 15:40:10.719 +02:00 [DBG] Connection id "0HMP3O9V4717N" accepted.
+2023-03-13 15:40:10.719 +02:00 [DBG] Connection id "0HMP3O9V4717N" started.
+2023-03-13 15:40:10.722 +02:00 [DBG] Connection 0HMP3O9V4717N established using the following protocol: "Tls12"
+2023-03-13 15:40:10.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/index.html - -
+2023-03-13 15:40:10.724 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-13 15:40:10.725 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-13 15:40:10.725 +02:00 [DBG] Request did not match any endpoints
+2023-03-13 15:40:10.733 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-13 15:40:10.733 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-13 15:40:10.733 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/index.html - - - 200 - text/html;charset=utf-8 9.4321ms
+2023-03-13 15:40:10.792 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - -
+2023-03-13 15:40:10.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7028/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.7345ms
+2023-03-13 15:40:13.236 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - -
+2023-03-13 15:40:13.236 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-13 15:40:13.236 +02:00 [DBG] Request did not match any endpoints
+2023-03-13 15:40:13.250 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7028/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 14.6280ms
+2023-03-13 15:40:24.489 +02:00 [DBG] Connection id "0HMP3O9V4717N" received FIN.
+2023-03-13 15:40:24.489 +02:00 [DBG] Connection id "0HMP3O9V4717N" is closed. The last processed stream ID was 5.
+2023-03-13 15:40:24.489 +02:00 [DBG] Connection id "0HMP3O9V4717N" sending FIN because: "The client closed the connection."
+2023-03-13 15:40:24.490 +02:00 [DBG] Connection id "0HMP3O9V4717N" stopped.

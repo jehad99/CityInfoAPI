@@ -1,6 +1,8 @@
 using CityInfoAPI;
+using CityInfoAPI.DbContexts;
 using CityInfoAPI.Service;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -26,6 +28,7 @@ builder.Services.AddControllers(option =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //ContentTypeProvider used to get File type
+//AddSingleton only one instance of the service will be created for the lifetime of the application.
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 #if DEBUG
 builder.Services.AddTransient<IMailService, LocalMailService>();
@@ -33,6 +36,7 @@ builder.Services.AddTransient<IMailService, LocalMailService>();
 builder.Services.AddTransient<IMailService, LocalMailService>();
 #endif
 builder.Services.AddSingleton<CitiesData>();
+builder.Services.AddDbContext<CityInfoContext>(dbContextOptions => dbContextOptions.UseSqlite("Data Source = CityInfo.db"));     
 
 var app = builder.Build();
 

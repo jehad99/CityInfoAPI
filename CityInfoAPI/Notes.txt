@@ -1,0 +1,1 @@
+﻿Entity Framework Core is ORM (Object Relational Mapper) technique that lets you query and manipulate data from database using an object-oriented paradigm rathar than writing sql statment in code

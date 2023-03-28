@@ -1,5 +1,4 @@
-﻿using CityInfoAPI.DTOs;
-using CityInfoAPI.Models;
+﻿using CityInfoAPI.Models;
 using CityInfoAPI.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
@@ -23,7 +22,7 @@ namespace CityInfoAPI.Controllers
             _data = data ?? throw new ArgumentNullException(nameof(data));
         }
         [HttpGet]
-        public ActionResult<IEnumerable<PointOfInterest>> GetPointsOfInterest(int cityId)
+        public ActionResult<IEnumerable<PointOfInterestDto>> GetPointsOfInterest(int cityId)
         {
             try
             {
@@ -44,7 +43,7 @@ namespace CityInfoAPI.Controllers
         }
 
         [HttpGet("{pointOfInterestId}", Name = "GetPointOfInterest")]
-        public ActionResult<PointOfInterest> GetPointOfInterest(int cityId, int pointOfInterestId)
+        public ActionResult<PointOfInterestDto> GetPointOfInterest(int cityId, int pointOfInterestId)
         {
             var city = _data.Cities.FirstOrDefault(c => c.Id == cityId);
             if (city == null)
@@ -60,13 +59,13 @@ namespace CityInfoAPI.Controllers
         }
 
         [HttpPost]
-        public ActionResult<PointOfInterest> CreatePointOfInterest(int cityId, AddPointOfInterest pointOfInterest)
+        public ActionResult<PointOfInterestDto> CreatePointOfInterest(int cityId, AddPointOfInterest pointOfInterest)
         {
             var city = _data.Cities.FirstOrDefault(i => i.Id == cityId);
             if (city == null) return NotFound();
 
             var maxId = _data.Cities.SelectMany(c => c.PointsOfInterest).Max(i => i.Id);
-            var createdPointOfInterest = new PointOfInterest()
+            var createdPointOfInterest = new PointOfInterestDto()
             {
                 Id = ++maxId,
                 Name = pointOfInterest.Name,

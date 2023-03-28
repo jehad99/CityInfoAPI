@@ -1,0 +1,165 @@
+2023-03-20 13:39:32.280 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-20 13:39:34.687 +02:00 [DBG] Entity Framework Core 7.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.3' with options: None
+2023-03-20 13:39:35.108 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-03-20 16:33:00.411 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-20 16:33:01.773 +02:00 [DBG] Entity Framework Core 7.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.3' with options: None
+2023-03-20 16:33:02.076 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-03-20 16:34:55.461 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-20 16:34:56.635 +02:00 [DBG] Entity Framework Core 7.0.3 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.3' with options: None
+2023-03-20 16:34:56.660 +02:00 [DBG] Creating DbConnection.
+2023-03-20 16:34:56.689 +02:00 [DBG] Created DbConnection. (25ms).
+2023-03-20 16:34:56.698 +02:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.704 +02:00 [DBG] Creating DbConnection.
+2023-03-20 16:34:56.705 +02:00 [DBG] Created DbConnection. (1ms).
+2023-03-20 16:34:56.708 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.727 +02:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.730 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.741 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2023-03-20 16:34:56.741 +02:00 [DBG] Creating DbConnection.
+2023-03-20 16:34:56.741 +02:00 [DBG] Created DbConnection. (0ms).
+2023-03-20 16:34:56.741 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.741 +02:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.741 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.742 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:56.742 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:56.758 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:56.773 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:56.782 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (9ms).
+2023-03-20 16:34:56.783 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (15ms).
+2023-03-20 16:34:56.793 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-20 16:34:56.838 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-20 16:34:56.842 +02:00 [DBG] Closing connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:56.848 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (6ms).
+2023-03-20 16:34:57.092 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:57.092 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.092 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.092 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.092 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.092 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-03-20 16:34:57.100 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-03-20 16:34:57.100 +02:00 [DBG] Closing connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.101 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:57.102 +02:00 [DBG] Creating DbConnection.
+2023-03-20 16:34:57.102 +02:00 [DBG] Created DbConnection. (0ms).
+2023-03-20 16:34:57.102 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.103 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.105 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.105 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:57.115 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-20 16:34:57.115 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-20 16:34:57.115 +02:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2023-03-20 16:34:57.115 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.115 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.116 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-20 16:34:57.120 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-20 16:34:57.120 +02:00 [DBG] Closing connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.120 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:57.122 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-20 16:34:57.122 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-20 16:34:57.122 +02:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-03-20 16:34:57.122 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.123 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.123 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-20 16:34:57.124 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-20 16:34:57.126 +02:00 [DBG] Closing data reader to 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.127 +02:00 [DBG] A data reader for 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db' is being disposed after spending 1ms reading results.
+2023-03-20 16:34:57.127 +02:00 [DBG] Closing connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.127 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:57.148 +02:00 [INF] Applying migration '20230320113934_CityInfoContextM1'.
+2023-03-20 16:34:57.207 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.208 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.210 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-20 16:34:57.568 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-20 16:34:57.569 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:57.569 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.569 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.569 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-03-20 16:34:57.570 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-03-20 16:34:57.570 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:57.570 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.570 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.570 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-03-20 16:34:57.570 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2023-03-20 16:34:57.570 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:57.570 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.570 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.570 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2023-03-20 16:34:57.570 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2023-03-20 16:34:57.570 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:57.571 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.571 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.571 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230320113934_CityInfoContextM1', '7.0.3');
+2023-03-20 16:34:57.571 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230320113934_CityInfoContextM1', '7.0.3');
+2023-03-20 16:34:57.572 +02:00 [DBG] Committing transaction.
+2023-03-20 16:34:57.574 +02:00 [DBG] Committed transaction.
+2023-03-20 16:34:57.576 +02:00 [DBG] Disposing transaction.
+2023-03-20 16:34:57.576 +02:00 [DBG] Closing connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.576 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:57.576 +02:00 [INF] Applying migration '20230320143301_try'.
+2023-03-20 16:34:57.579 +02:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:57.580 +02:00 [DBG] Opened connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:57.580 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-20 16:34:57.580 +02:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-20 16:34:57.580 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-20 16:34:57.580 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.580 +02:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-20 16:34:57.580 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230320143301_try', '7.0.3');
+2023-03-20 16:34:57.580 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230320143301_try', '7.0.3');
+2023-03-20 16:34:59.412 +02:00 [DBG] Committing transaction.
+2023-03-20 16:34:59.413 +02:00 [DBG] Committed transaction.
+2023-03-20 16:34:59.414 +02:00 [DBG] Disposing transaction.
+2023-03-20 16:34:59.414 +02:00 [DBG] Closing connection to database 'main' on server 'E:\Jehad\programming\CityInfo\CityInfoAPI\CityInfo.db'.
+2023-03-20 16:34:59.414 +02:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2023-03-20 16:34:59.416 +02:00 [DBG] 'CityInfoContext' disposed.
+2023-03-20 16:34:59.417 +02:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2023-03-20 16:34:59.417 +02:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
